@@ -7,10 +7,10 @@ export default function Home() {
     <>
       <Head>
         <title>TITULO</title>
-        <meta property="og:title" content="TITULO | SUBTITULO" />
-        <meta name="description" content="DESCRICAO" />
-        <meta property="og:description" content="DESCRICAO" />
-        <meta property="og:image" content="/logo.png" key="ogimage" />
+        <meta property="og:title" content="Regulamento | Cultura Natural" />
+        <meta name="description" content="Promoção FOME DE SORTE" />
+        <meta property="og:description" content="Promoção FOME DE SORTE" />
+        <meta property="og:image" content="logo.png" key="ogimage" />
       </Head>
       <Header />
       <Hero />
