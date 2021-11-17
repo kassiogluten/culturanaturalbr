@@ -4,8 +4,8 @@ export const theme = extendTheme({
   initialColorMode: "dark",
   useSystemColorMode: false,
   fonts: {
-    heading: "CaviarDreams",
-    body: "CaviarDreams",
+    heading: "Roboto, sans-serif",
+    body: "Roboto, sans-serif",
   },
   colors: {
     rosaxoq: "#ff00ff",

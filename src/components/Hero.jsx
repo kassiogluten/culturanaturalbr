@@ -1,33 +1,32 @@
 import React from "react";
 import {
-  Box,
   Flex,
   Heading,
   Text,
-  Stack,
-  VStack,
-  HStack,
-  Center,
-  Button,
 } from "@chakra-ui/react";
 
 export function Hero() {
   return (
-    <Flex as="section" justify="center" align="center" w="100%" bg="blue.900">
+    <Flex as="section" justify="center" align="center" w="100%">
       <Flex
-        p="5rem 1rem"
+        p="1rem"
         align="center"
         maxW={1200}
         w="full"
-        bg="blue.500"
         justify="space-between"
         h={700}
-        flexDir={{ base: "column", sm: "row" }}
-        //flexDir="column"
+        flexDir="column"
       >
-        <Heading>Texto</Heading>
-        <Heading>Texto</Heading>
+        <Text>Regulamento</Text>
+        <Heading p={4}>Promoção FOME DE SORTE</Heading>
+        <Texto/>
       </Flex>
     </Flex>
   );
 }
+
+const Texto = () => (
+  <>
+  <p>1 - EMPRESA PROMOTORA:<br />Raz&atilde;o Social: ACAICULTURA ALIMENTOS LTDA Endere&ccedil;o: Avenida Carlos<br />Chagas, 407 - Bairro Cidade Nobre Munic&iacute;pio: Ipatinga UF: Minas Gerais CNPJ:<br />33.269.510/0001-18<br />2 - MODALIDADE DA PROMO&Ccedil;&Atilde;O: Assemelhada a Sorteio<br />3 - &Aacute;REA DE ABRANG&Ecirc;NCIA: Vale do A&ccedil;o (Ipatinga, Coronel Fabriciano, Santana<br />do Para&iacute;so, Tim&oacute;teo e Caratinga)<br />4 - PER&Iacute;ODO DA PROMO&Ccedil;&Atilde;O: 19/11/2021 a 31/01/2022;<br />5 - PER&Iacute;ODO DE PARTICIPA&Ccedil;&Atilde;O: 19/11/2021 a 30/01/2022 AT&Eacute; 22h00;<br />6 &ndash; DATA DO SORTEIO: 31/01/2022 &Agrave;S 20h00 AO VIVO NO INSTAGRAM.<br />7 - CRIT&Eacute;RIO DE PARTICIPA&Ccedil;&Atilde;O:<br />7.1 Esta PROMO&Ccedil;&Atilde;O &eacute; destinada a toda pessoa f&iacute;sica, com idade igual ou superior a<br />16 (dezesseis) anos na data do cadastro, residente no Vale do A&ccedil;o, que durante o<br />per&iacute;odo de 19/11/2021 a 30/01/2022, consumir a partir de R$30 no Restaurante Cultura<br />Natural ou nos Apps de Delivery.<br />7.2 Em caso de Delivery (Cultura Natural, Ifood e WhatsApp) a taxa de entrega n&atilde;o<br />entrar&aacute; na contagem do valor de consumo.<br />7.3 Fica desde j&aacute; esclarecido que ser&atilde;o 200 (duzentos) pr&ecirc;mios instant&acirc;neos (na<br />raspadinha da sorte) e 2 (dois) grandes pr&ecirc;mios para 2 (dois) ganhadores diferentes.<br />Sendo, 1 (um) ano de Academia EndFit inteiramente gr&aacute;tis e 1 (um) ano de refei&ccedil;&atilde;o no<br />Cultura Natural (Cultura do dia, segunda a sexta, de 11h &agrave;s 15h, para consumo no<br />restaurante).<br />7.4 Os funcion&aacute;rios do Restaurante Cultura Natural n&atilde;o poder&atilde;o participar da<br />promo&ccedil;&atilde;o, bem como os envolvidos na campanha.<br />7.5 Os pr&ecirc;mios instant&acirc;neos (RASPADINHA DA SORTE) s&atilde;o acumulativos. Ou seja, a<br />CADA compra a partir de R$30,00 o participante ganhar&aacute; uma nova raspadinha da<br />sorte, tendo assim, mais chances de ganhar um dos pr&ecirc;mios principais.<br />7.6 Para se inscrever na PROMO&Ccedil;&Atilde;O, o consumidor dever&aacute;, no per&iacute;odo do dia<br />20/11/2021 at&eacute; dia 28/01/2022, se cadastrar na promo&ccedil;&atilde;o, conforme instru&ccedil;&otilde;es descritas<br />nos itens a seguir e depositar o cupom no Restaurante Cultura Natural.<br />7.7 Ap&oacute;s conhecer a mec&acirc;nica da PROMO&Ccedil;&Atilde;O, o participante dever&aacute; preencher o<br />cadastro com seus dados obrigat&oacute;rios no verso da RASPADINHA DA SORTE,<br />recebida ap&oacute;s o consumo de, no m&iacute;nimo R$30 no Restaurante Cultura Natural ou nos<br />apps de Delivery. Sendo: Nome completo, CPF, N&uacute;mero de telefone celular, melhor email e endere&ccedil;o.<br />7.8 Para efeitos desta PROMO&Ccedil;&Atilde;O, considera-se que a participa&ccedil;&atilde;o de menores de<br />idade tenha sido previamente autorizada por seus respectivos representantes legais.<br />7.9 Os participantes contemplados autorizam, sem qualquer &ocirc;nus &agrave; empresa promotora,<br />pelo prazo m&aacute;ximo de 1 (um) ano a contar da data de contempla&ccedil;&atilde;o, o uso de seu nome,<br />imagem e som de voz, para divulga&ccedil;&atilde;o da PROMO&Ccedil;&Atilde;O com finalidades comerciais,<br />institucionais ou outras juridicamente admiss&iacute;veis, inclusive na rela&ccedil;&atilde;o de ganhadores<br />da PROMO&Ccedil;&Atilde;O que ser&aacute; divulgada nas redes sociais do Restaurante Cultura Natural.<br />7.10 Ao participar dessa PROMO&Ccedil;&Atilde;O, os participantes desde j&aacute; concordam que o<br />promotor poder&aacute; coletar suas informa&ccedil;&otilde;es pessoais fornecidas quando do cadastramento<br />e reconhecem, igualmente, que leram e aceitam a referida Pol&iacute;tica de Privacidade.<br />Dentre outras finalidades, as informa&ccedil;&otilde;es fornecidas pelos participantes podem ser<br />usadas para enviar aos participantes atualiza&ccedil;&otilde;es e an&uacute;ncios sobre a Promo&ccedil;&atilde;o FOME<br />DE SORTE, bem como de outros produtos da empresa promotora.<br />8 - DESCRI&Ccedil;&Atilde;O DE PR&Ecirc;MIOS PRINCIPAIS:<br />1 (um) ANO DE ACADEMIA END FIT<br />1 (um) ANO DE CULTURA DO DIA (segunda a sexta, de 11h &agrave;s 15h)<br />9 - APURA&Ccedil;&Atilde;O<br />9.1 O sorteio dos pr&ecirc;mios principais ser&aacute; realizado no dia 31/01/2022 &agrave;s 14h00 ao vivo<br />no Instagram @culturanatural_br<br />9.2 Os 200 (duzentos) pr&ecirc;mios instant&acirc;neos ser&atilde;o sorteados na RASPADINHA DA<br />SORTE, o ganhador ter&aacute; 7 (sete) dias para resgatar o pr&ecirc;mio.<br />9.3 O pr&ecirc;mio instant&acirc;neo dever&aacute; ser consumido na loja f&iacute;sica.<br />9.4 Os pr&ecirc;mios principais ter&atilde;o 2 (dois) ganhadores diferentes<br />9.5 Os ganhadores dos pr&ecirc;mios principais (1 ano de End Fit e 1 ano de Cultura do dia)<br />ter&atilde;o at&eacute; o dia 01/03/2022 para iniciarem a contagem das refei&ccedil;&otilde;es no Cultura Natural<br />ou iniciarem o plano na academia End Fit. A partir do dia 01/03/2022 j&aacute; ser&atilde;o<br />contabilizadas as refei&ccedil;&otilde;es n&atilde;o resgatadas como fornecidas e o cliente perder&aacute; o direito<br />ao plano da End Fit.<br />9.6 Caso o item premiado na raspadinha n&atilde;o esteja dispon&iacute;vel em estoque no momento<br />da retirada do pr&ecirc;mio, o Cultura Natural poder&aacute; substitu&iacute;-lo por outro com valor similar<br />dispon&iacute;vel.<br />10 - TERMO DE RESPONSABILIDADE<br />Poder&aacute; participar da promo&ccedil;&atilde;o qualquer consumidor que preencha os requisitos<br />estipulados no regulamento da campanha autorizada;<br />10.1 Os pr&ecirc;mios n&atilde;o poder&atilde;o ser convertidos em dinheiro;<br />10.2 Os pr&ecirc;mios n&atilde;o poder&atilde;o ser transferidos para outra pessoa.<br />10.3 O plano anual de Cultura do Dia dever&aacute; ser consumido no restaurante, caso o<br />contemplado desejar delivery, ser&aacute; cobrado uma taxa de R$5,00 + taxa de entrega da<br />localidade.<br />10.4 O plano anual da EndFit ser&aacute; feito em nome do ganhador e seguir&aacute; os termos de<br />contrato padr&atilde;o oferecido pela pr&oacute;pria academia. Sendo assim, o restaurante Cultura<br />Natural fica isento de quaisquer responsabilidades e conflitos entre o ganhador e a<br />contratada.<br />10.5 Caso o ganhador n&atilde;o se demonstre apto a praticar atividades f&iacute;sicas de acordo com<br />os termos da academia, ele poder&aacute; passar o pr&ecirc;mio para uma pessoa apta &agrave; sua escolha,<br />sem fins lucrativos.<br />10.6 Caso o restaurante Cultura Natural seja impedido de abrir por motivos de for&ccedil;a<br />maior (outra paraliza&ccedil;&atilde;o, por exemplo), se desobriga de fornecer as refei&ccedil;&otilde;es pelo<br />mesmo per&iacute;odo.<br />10.7 O restaurante Cultura Natural se reserva o direito de alterar o card&aacute;pio do dia a<br />qualquer momento.</p>
+  </>
+)

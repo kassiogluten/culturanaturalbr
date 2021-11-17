@@ -10,11 +10,9 @@ export default function Home() {
         <meta property="og:title" content="TITULO | SUBTITULO" />
         <meta name="description" content="DESCRICAO" />
         <meta property="og:description" content="DESCRICAO" />
-        <meta property="og:image" content="/logo.jpg" key="ogimage" />
+        <meta property="og:image" content="/logo.png" key="ogimage" />
       </Head>
       <Header />
-      <Hero />
-      <Hero />
       <Hero />
     </>
   );
