@@ -1,11 +1,11 @@
 module.exports = {
   reactStrictMode: true,
-  async rewrites() {
+  /* async rewrites() {
     return [
       {
         source: "/",
-        destination: "https://culturanaturalbr.menudino.com",
+        destination: "https://cardapio.culturanaturalbr.com.br",
       },
     ];
-  },
+  }, */
 };
