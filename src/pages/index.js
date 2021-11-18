@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Cultura Natural | Cardápio" />
         <meta property="og:description" content="Cultura Natural | Cardápio" />
         <meta property="og:image" content="logo.png" key="ogimage" />
-        {/* <meta httpEquiv="refresh" content="10; URL='https://cardapio.culturanaturalbr.com.br'"/> */}
+        <meta httpEquiv="refresh" content="1; URL='https://cardapio.culturanaturalbr.com.br'"/>
       </Head>
       <Header />
       <CircularProgress isIndeterminate color="green.300" />
