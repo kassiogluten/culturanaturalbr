@@ -33,7 +33,7 @@ export default function Custom404() {
             <Text>Erro 404 no link:</Text>
             <Badge>{router.asPath}</Badge>
           </HStack>
-          <Button as="a" href="/">
+          <Button as="a" href="/regulamento">
             Voltar para regulamento
           </Button>
         </Flex>
